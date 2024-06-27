@@ -14,8 +14,5 @@ echo "$CompanyName is the parent company of NoNamePOS";
 echo $CompanyName . ' is the parent company of NoNamePOS ';
 
 // Define = Constant
-define('HOST','localhost');
-define('DB_NAME','dev_db');
-
-
-
+define('HOST', 'localhost');
+define('DB_NAME', 'dev_db');

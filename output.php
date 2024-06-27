@@ -1,9 +1,9 @@
 <?php
-echo 'Hello, Welcome to php'; 
+echo 'Hello, Welcome to php';
 
-echo 123,'Hello';
+echo 123, 'Hello';
 
-print_r([1,2,3]);
+print_r([1, 2, 3]);
 
 //Console.log for PHP that shows the output and type
 var_dump('Hello');
@@ -12,4 +12,3 @@ var_dump('Hello');
 var_export('Hello');
 
 // Option closing unless there is some HTML below
-?> 

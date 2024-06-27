@@ -17,3 +17,15 @@ if($time < 12){
 }else{
     echo "Good night";
 }
+
+$post = [];
+
+if(!empty($post)){
+    echo "This is the post";
+};
+
+//Ternary condition
+$firstPost = !empty($post) ? $post[0] : 'No posts';
+
+//Coelcing operator '??'
+$firstPost = $post[0] ?? null;

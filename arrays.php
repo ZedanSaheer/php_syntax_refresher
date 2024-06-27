@@ -1,23 +1,23 @@
 <?php
 // Arrays are used like all other languages with $name[number of index] to access elements
-$numbers = [1,2,3]; 
-$fruits = ['apple','orange'];
+$numbers = [1, 2, 3];
+$fruits = ['apple', 'orange'];
 
 //Associative Array
 $color = [
-    1=>'red',
-    2=>'blue',
-    3=>'green'
+    1 => 'red',
+    2 => 'blue',
+    3 => 'green'
 ];
 
 $hex = [
-    'black'=>'#111',
-    'white'=>'#FFF'
+    'black' => '#111',
+    'white' => '#FFF'
 ];
 
 $person = [
-    'first_name'=>'Brad',
-    'last_name'=>'Traversy'
+    'first_name' => 'Brad',
+    'last_name' => 'Traversy'
 ];
 
 //Access blue color
@@ -28,14 +28,14 @@ var_dump($numbers);
 //Multi Dimnetional or Nested Arrays
 $people = [
     [
-        'first_name'=>'john',
-        'last_name'=>'doe',
-        'email'=>'john.doe@example.com'
+        'first_name' => 'john',
+        'last_name' => 'doe',
+        'email' => 'john.doe@example.com'
     ],
     [
-        'first_name'=>'john',
-        'last_name'=>'doe',
-        'email'=>'john.doe@example.com'
+        'first_name' => 'john',
+        'last_name' => 'doe',
+        'email' => 'john.doe@example.com'
     ],
 ];
 
